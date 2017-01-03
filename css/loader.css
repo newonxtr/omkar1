@@ -1,0 +1,10 @@
+body {
+   background-color:rgba(23, 32, 42,1.5);
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%; 
+   transform-type: preserve-3d;
+}
