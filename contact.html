@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="modificatio"> 
+    <title> Omkar inn</title>
+     <meta name="keyword" content="omkar inn goa, hotels, hotelsingoa, curchorem, besthotels in goa">
+    <meta name="description" content="OmkarINN">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+
+  </head>
+  <body onload="load()">
+   <!-- navbar -->
+   <div class="loader" id="loader">
+     <canvas 
+    height="320"
+    id="js-canvas"
+    width="320">
+  </canvas>
+  </div>
+   <div class="main-wrapper owl-backSlide-in" id="main">
+      <h1 class="htitle "><a href="index.html"><img id="himage" src="img/SYMBOL.svg">Omkar INN</a></h1>
+         <div class="navbar navbar-default" role="navigation" id="navbar">
+           <div class="container">
+             <div class="navbar-header">
+               <div class="navbar-buttons">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                   <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+               </div>
+             </div>
+                   <!--/.navbar-header -->
+               <div class="navbar-collapse collapse fixed" id="navigation">
+                 <ul class="nav navbar-nav navbar-right ">
+                   <li>
+                     <a class="page-scroll" href="index.html">Home</a>
+                   </li>
+                   <li>
+                     <a class="page-scroll" href="packages.html">Package</a>
+                   </li>
+                   <li>
+                     <a class="page-scroll" href="gallery.html">Gallery</a>
+                   </li>
+                   <li>
+                     <a class="page-scroll" href="contact.html">Contact</a>
+                   </li>
+                 </ul>
+               </div>
+                   <!--/.nav-collapse -->
+             </div>
+         </div>
+         <section class="contact">
+           <div class="container">
+           <div class="col-md-12">
+             <ul class="breadcrumb" id="bread">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Contact</a></li>
+             </ul>
+           </div>
+            <div class="col-md-8 text-center" data-animate="fadeInRight">
+            <div class="row">
+              <h3 class="section-heading">Get in Touch with Us</h3>
+            </div>
+            <div class="row customrow">
+              <form action="contact.php" method="post" >
+                <div class="container">
+                  <div class="col-md-4 col-sm-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Your Name *" name="name" required data-validation-required-message="Please enter your name.">
+                                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" name="email" class="form-control" placeholder="Your Email *" required data-validation-required-message="Please Enter Your Email">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                      <input type="tel" name="contact" class="form-control" placeholder="Your Mobile Number *" required data-validation-required-message="Please Enter Your Mobile Number">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="col-md-4 col-sm-5" id="mes">
+                    <div class="form-group">
+                      <textarea rows="8" cols="70" name="message" class="form-control" placeholder="Your Message *" required data-validation-required-message="Please Enter Your Message"></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="clearfix">
+                      <div id="success"></div>
+                        <button type="submit" class="btn btn-sm">Send Message</button>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4" text-center" data-animate="fadeInRight">
+            <div class="row">
+              <h3 class="heading">Contact Information</h3>
+            </div>
+            <div class="row">
+              <div id="info">
+                <div class="info_sec">
+                  <div class="icon_box">
+                    <i class="fa fa-map-marker" id="ico"></i>
+                  </div>
+                  <p class="center"><a href="">Chichinnim Goa</a></p>
+                </div><hr>
+                <div class="info_sec">
+                  <div class="icon_box">
+                    <i class="fa fa-phone" id="ico"></i>
+                  </div>
+                  <p class="center"><a href="tel:+91-976-5606-151">+91-976-5606-151</a></p>
+                </div><hr>
+                <div class="info_sec">
+                  <div class="icon_box">
+                    <i class="fa fa-phone" id="ico"></i>
+                  </div>
+                  <p class="center"><a href="tel:+91-880-6416-714">+91-880-6416-714</a></p>
+                </div><hr>
+                <div class="info_sec">
+                  <div class="icon_box">
+                    <i class="fa fa-phone" id="ico"></i>
+                  </div>
+                  <p class="center"><a href="tel:0832-260-5483-184">0832-260-5483-184</a></p>
+                </div>
+                <hr>
+                <div class="info_sec">
+                  <div class="icon_box">
+                    <i class="fa fa-facebook" id="ico"></i>
+                </div>
+                <p class="center"><a href="">facebook/Omkar INN</a></p>
+                </div>
+                <hr>
+                <div class="info_sec">
+                  <div class="icon_box">
+                    <i class="fa fa-google-plus" id="ico"></i>
+                  </div>
+                  <p class="center"><a href="">plus.google.com/OmkarINN</a></p>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+        <br><br>
+      </section>
+      <div class="mapmain">
+        <div class="mapsection">
+          <div class="maps">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3849.1157513122735!2d74.10510931484819!3d15.261482189384347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfac65d1bcdb0f%3A0x3b8d7955bd6f59c4!2sHotel+Omkar+Inn!5e0!3m2!1sen!2sin!4v1472223330596" width="600" height="450" frameborder="0" style="border-bottom:5px #ffa949 solid;" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer">
+                <div class="container">
+               <div class="row" >
+                 <div class="col-sm-4">
+                   <h3>About Us</h3> <p>established in 2010</p>
+                 </div>
+                 <div class="col-sm-4">
+                   <h3>Our Adress</h3> <p>Omkar Complex, Curchorem, Goa - 403706,<br> Near Ktc Bus Stand,<br> Opposite Syndicate Bank </p>
+                 </div>
+                 <div class="row" style="text-decorolation:none;" >
+                 <div class="col-sm-4">
+                   <h3>Quick Links</h3> 
+                   <p class="bottom"><a href="index.html">Home</a><br></p>
+                   <p class="bottom"><a href="booking.html">Booking</a><br></p>
+                   <p class="bottom"><a href="gallery.html">Gallery</a><br></p>
+                   <p class="bottom"><a href="contact.html">Contact</a><br></p>
+                 </div>
+               </div>
+             </div>     
+            </footer>   
+            <footer class="sec">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 social">
+                      <a class="socials" href="#" target="_blank">
+                        <i class="fa fa-google-plus custom"></i>
+                      </a>
+                      <a class="socials" href="#" target="_blank">
+                        <i class="fa fa-facebook-official custom"></i>
+                      </a>
+                  </div>
+                  <div class="col-md-3">
+                    <span class="copyright" id="copyright">Copyright &copy; Omkar INN</span>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="row">
+                      <ul class="list-inline quicklinks">
+                        <li class="add"><a href="contact.txt">Powered by:Modificatio</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+  </div> 
+    <script src="js/main.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/loader.js"></script>
+  </body>
+</html>
